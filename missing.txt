@@ -1,0 +1,431 @@
+
+Font: Harmattan-Medium.ttf
+Missing letters: ﺅ
+
+
+Font: Lateef-ExtraBold.ttf
+Missing letters: ﺅ
+
+
+Font: NotoSansArabic_Condensed-Medium.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-ExtraBold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-Light.ttf
+Missing letters: 
+±
+
+Font: NotoKufiArabic-Medium.ttf
+Missing letters: 
+±
+
+Font: Mada-Regular.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: Lateef-Bold.ttf
+Missing letters: ﺅ
+
+
+Font: NotoKufiArabic-ExtraLight.ttf
+Missing letters: 
+±
+
+Font: Katibeh-Regular.ttf
+Missing letters: ﺅ
+ٗ﻿
+
+Font: NotoSansArabic_Condensed-Thin.ttf
+Missing letters: 
+±
+
+Font: NotoKufiArabic-Thin.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-Regular.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-Bold.ttf
+Missing letters: 
+±
+
+Font: NotoNaskhArabic-Medium.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_ExtraCondensed-SemiBold.ttf
+Missing letters: 
+±
+
+Font: Lateef-SemiBold.ttf
+Missing letters: ﺅ
+
+
+Font: NotoSansArabic_SemiCondensed-Light.ttf
+Missing letters: 
+±
+
+Font: Kufam-Italic-VariableFont_wght.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoNaskhArabic-SemiBold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_Condensed-Bold.ttf
+Missing letters: 
+±
+
+Font: Kufam-MediumItalic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Kufam-ExtraBold.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoKufiArabic-ExtraBold.ttf
+Missing letters: 
+±
+
+Font: Kufam-ExtraBoldItalic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Amiri-Regular.ttf
+Missing letters: 
+
+
+Font: NotoSansArabic_Condensed-ExtraLight.ttf
+Missing letters: 
+±
+
+Font: Mirza-Medium.ttf
+Missing letters: ﺅ
+ٗ﻿
+
+Font: Gulmarg Nastaleeq-8.11.2013.ttf
+Missing letters: sG‘odKC٭٠ﺅaSgbkRtJlwLxizA(cۭٙ’ۡfۄuMZ﻿ةvأyؠٟerPNn)FpH¿D±Tmhإ
+
+Font: NotoSansArabic_ExtraCondensed-Medium.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_SemiCondensed-ExtraLight.ttf
+Missing letters: 
+±
+
+Font: Harmattan-Regular.ttf
+Missing letters: ﺅ
+
+
+Font: NotoSansArabic_ExtraCondensed-ExtraLight.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-Black.ttf
+Missing letters: 
+±
+
+Font: Mada-Black.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: NotoSansArabic_ExtraCondensed-Black.ttf
+Missing letters: 
+±
+
+Font: Mada-ExtraLight.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: ScheherazadeNew-Regular.ttf
+Missing letters: ﺅ
+
+
+Font: IBMPlexSansArabic-Medium.ttf
+Missing letters: 
+﻿
+
+Font: NotoSansArabic_SemiCondensed-Black.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_Condensed-Light.ttf
+Missing letters: 
+±
+
+Font: Mada-VariableFont_wght.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: ScheherazadeNew-SemiBold.ttf
+Missing letters: ﺅ
+
+
+Font: Harmattan-SemiBold.ttf
+Missing letters: ﺅ
+
+
+Font: Kufam-BlackItalic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoSansArabic_SemiCondensed-Medium.ttf
+Missing letters: 
+±
+
+Font: Mirza-Bold.ttf
+Missing letters: ﺅ
+ٗ﻿
+
+Font: Kufam-VariableFont_wght.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Kufam-Bold.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Kufam-Black.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoSansArabic_SemiCondensed-Thin.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-VariableFont_wdth,wght.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_ExtraCondensed-Thin.ttf
+Missing letters: 
+±
+
+Font: Amiri-BoldItalic.ttf
+Missing letters: 
+
+
+Font: NotoSansArabic-Thin.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-ExtraLight.ttf
+Missing letters: 
+﻿
+
+Font: Mada-SemiBold.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: NotoSansArabic_Condensed-Black.ttf
+Missing letters: 
+±
+
+Font: Mada-Medium.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: Kufam-SemiBoldItalic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Kufam-Medium.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoSansArabic_ExtraCondensed-Regular.ttf
+Missing letters: 
+±
+
+Font: NotoKufiArabic-VariableFont_wght.ttf
+Missing letters: 
+±
+
+Font: NotoKufiArabic-SemiBold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-Medium.ttf
+Missing letters: 
+±
+
+Font: Kufam-Italic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoSansArabic_SemiCondensed-SemiBold.ttf
+Missing letters: 
+±
+
+Font: Mada-Light.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: Lateef-Medium.ttf
+Missing letters: ﺅ
+
+
+Font: NotoNaskhArabic-Regular.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-Thin.ttf
+Missing letters: 
+﻿
+
+Font: ScheherazadeNew-Bold.ttf
+Missing letters: ﺅ
+
+
+Font: Lateef-Light.ttf
+Missing letters: ﺅ
+
+
+Font: NotoNaskhArabic-Bold.ttf
+Missing letters: 
+±
+
+Font: Amiri-Italic.ttf
+Missing letters: 
+
+
+Font: NotoKufiArabic-Regular.ttf
+Missing letters: 
+±
+
+Font: Amiri-Bold.ttf
+Missing letters: 
+
+
+Font: Mirza-SemiBold.ttf
+Missing letters: ﺅ
+ٗ﻿
+
+Font: Lateef-ExtraLight.ttf
+Missing letters: ﺅ
+
+
+Font: NotoKufiArabic-Light.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_Condensed-ExtraBold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_ExtraCondensed-ExtraBold.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-SemiBold.ttf
+Missing letters: 
+﻿
+
+Font: Mirza-Regular.ttf
+Missing letters: ﺅ
+ٗ﻿
+
+Font: NotoNaskhArabic-VariableFont_wght.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_SemiCondensed-ExtraBold.ttf
+Missing letters: 
+±
+
+Font: ScheherazadeNew-Medium.ttf
+Missing letters: ﺅ
+
+
+Font: Mada-ExtraBold.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
+
+Font: Kufam-SemiBold.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: NotoKufiArabic-Black.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_SemiCondensed-Regular.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_Condensed-Regular.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-ExtraLight.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-Bold.ttf
+Missing letters: 
+﻿
+
+Font: NotoSansArabic_SemiCondensed-Bold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_ExtraCondensed-Light.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic_ExtraCondensed-Bold.ttf
+Missing letters: 
+±
+
+Font: Narqalam.ttf
+Missing letters: ْﺅ
+ٙأٟۓ
+
+Font: NotoKufiArabic-Bold.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-Regular.ttf
+Missing letters: 
+﻿
+
+Font: Harmattan-Bold.ttf
+Missing letters: ﺅ
+
+
+Font: Kufam-BoldItalic.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Lateef-Regular.ttf
+Missing letters: ﺅ
+
+
+Font: NotoSansArabic_Condensed-SemiBold.ttf
+Missing letters: 
+±
+
+Font: NotoSansArabic-SemiBold.ttf
+Missing letters: 
+±
+
+Font: IBMPlexSansArabic-Light.ttf
+Missing letters: 
+﻿
+
+Font: Kufam-Regular.ttf
+Missing letters: ۪ؑﺅ
+ۭؒۡ﻿ؓؔ
+
+Font: Mada-Bold.ttf
+Missing letters: ؑ٭ﺅ
+ؒ﴾؎﴿ؓؔ
