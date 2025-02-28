@@ -3,6 +3,8 @@ import errno
 import os
 import sys
 
+import shutil
+
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 import random as rnd
@@ -150,16 +152,16 @@ def parse_arguments():
         "-wk",
         "--use_wikipedia",
         action="store_true",
-        help="Use Wikipedia as the source text for the generation, using this parameter ignores -r, -n, -s",
+        help="Use Wikipedia as the source text for the generation, using this paremeter ignores -r, -n, -s",
         default=False,
     )
     parser.add_argument(
         "-bl",
         "--blur",
-        type=int,
+        type=float,
         nargs="?",
         help="Apply gaussian blur to the resulting sample. Should be an integer defining the blur radius",
-        default=0,
+        default=0.0,
     )
     parser.add_argument(
         "-rbl",
@@ -208,7 +210,7 @@ def parse_arguments():
         "--distorsion",
         type=int,
         nargs="?",
-        help="Define a distortion applied to the resulting image. 0: None (Default), 1: Sine wave, 2: Cosine wave, 3: Random",
+        help="Define a distorsion applied to the resulting image. 0: None (Default), 1: Sine wave, 2: Cosine wave, 3: Random",
         default=0,
     )
     parser.add_argument(
@@ -216,7 +218,7 @@ def parse_arguments():
         "--distorsion_orientation",
         type=int,
         nargs="?",
-        help="Define the distortion's orientation. Only used if -d is specified. 0: Vertical (Up and down), 1: Horizontal (Left and Right), 2: Both",
+        help="Define the distorsion's orientation. Only used if -d is specified. 0: Vertical (Up and down), 1: Horizontal (Left and Right), 2: Both",
         default=0,
     )
     parser.add_argument(
@@ -341,6 +343,15 @@ def parse_arguments():
         help="Define the image mode to be used. RGB is default, L means 8-bit grayscale images, 1 means 1-bit binary images stored with one pixel per byte, etc.",
         default="RGB",
     )
+
+    parser.add_argument(
+        "-ic",
+        "--image_count",
+        type=int,
+        nargs="?",
+        help="Tells the starting index number of the image to be generated",
+        default=0,
+    )
     return parser.parse_args()
 
 
@@ -351,6 +362,21 @@ def main():
 
     # Argument parsing
     args = parse_arguments()
+    
+
+    output_folder=args.output_dir #Added
+    parts=output_folder.split("/") #Added
+    label_path="/".join(parts[:-1]) #Added
+
+    gt_filepath=os.path.join(label_path, '{}_trdg_labels.txt'.format(parts[-1])) #Added
+
+
+
+    if (args.image_count == 0):
+        if os.path.exists(args.output_dir):
+            shutil.rmtree(args.output_dir, ignore_errors=True)
+        if os.path.exists(gt_filepath):
+            os.remove(gt_filepath)
 
     # Create the directory if it does not exist.
     try:
@@ -439,7 +465,7 @@ def main():
         p.imap_unordered(
             FakeTextDataGenerator.generate_from_tuple,
             zip(
-                [i for i in range(0, string_count)],
+                [i for i in range(args.image_count, args.image_count + string_count)],
                 strings,
                 [fonts[rnd.randrange(0, len(fonts))] for _ in range(0, string_count)],
                 [args.output_dir] * string_count,
@@ -478,15 +504,20 @@ def main():
 
     if args.name_format == 2:
         # Create file with filename-to-label connections
-        with open(
-            os.path.join(args.output_dir, "labels.txt"), "w", encoding="utf8"
-        ) as f:
+
+        # with open("trdg/output/5M/labels.txt", "a", encoding="utf8") as f:  #Original
+        
+        
+        with open(gt_filepath, "a", encoding="utf8") as f: #Changed
+
             for i in range(string_count):
-                file_name = str(i) + "." + args.extension
+                file_name = str(args.image_count + i) + "." + args.extension
                 label = strings[i]
                 if args.space_width == 0:
                     label = label.replace(" ", "")
-                f.write("{} {}\n".format(file_name, " ".join(label.split()[::-1])))
+                f.write("{}/{} {}\n".format(parts[-1],file_name, label)) #Changed
+                
+                # f.write("{} {}\n".format(file_name, label)) #Original
 
 
 if __name__ == "__main__":
