@@ -512,7 +512,8 @@ def main():
 
             for i in range(string_count):
                 file_name = str(args.image_count + i) + "." + args.extension
-                label = strings[i]
+                # label = strings[i]
+                label = ' '.join(strings[i].split()[::-1])
                 if args.space_width == 0:
                     label = label.replace(" ", "")
                 f.write("{}/{} {}\n".format(parts[-1],file_name, label)) #Changed
