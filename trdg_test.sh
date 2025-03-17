@@ -1,7 +1,7 @@
 #! /bin/bash
 
 python trdg/run.py -l kr -dt trdg/dicts/kr.txt -fd trdg/fonts/new_kr --word_split -na 2 -t 55 -k 5 -rk -b 0 -bl 0 --output_dir trdg/output/ -tc "#030303" -f 64 -w 10 -m 12,5,2,5 -c 10 --image_count 0 
-python trdg/run.py -l ur -dt trdg/dicts/urdu.txt -fd trdg/fonts/ur --word_split -na 2 -t 55 -k 5 -rk -b 0 -bl 1 --output_dir trdg/output/urdu_train_12M -tc "#030303" -f 64 -w 5 -sw 1 -stw 2 -m 12,5,2,5 -c 10 --image_count 10
+python trdg/run.py -l ur -dt trdg/dicts/urSpc.txt -fd trdg/fonts/ur --word_split -na 2 -t 55 -k 5 -rk -b 0 -bl 1 --output_dir trdg/output/urdu_train_12M -tc "#030303" -f 64 -w 5 -sw 1 -stw 2 -m 12,5,2,5 -c 10 --image_count 10
 python trdg/run.py -l ur -dt trdg/dicts/urdu.txt -fd trdg/fonts/ur --word_split -na 2 -t 55 -k 5 -rk -b 2 -bl 0 --output_dir trdg/output/urdu_train_12M -tc "#030303" -f 64 -w 5 -sw 0.5 -m 12,5,2,5 -c 10 --image_count 20 
 python trdg/run.py -l ur -dt trdg/dicts/urdu.txt -fd trdg/fonts/ur --word_split -na 2 -t 55 -k 5 -rk -b 2 -bl 1 --output_dir trdg/output/urdu_train_12M -tc "#030303" -f 64 -w 5 -sw 1 -stw 2 -m 12,5,2,5 -c 10 --image_count 30
 python trdg/run.py -l ur -dt trdg/dicts/urdu.txt -fd trdg/fonts/ur --word_split -na 2 -t 55 -k 5 -rk -b 3 -bl 0 --output_dir trdg/output/urdu_train_12M -tc "#030303" -f 64 -w 5 -sw 0.5 -m 12,5,2,5 -c 10 --image_count 40 
